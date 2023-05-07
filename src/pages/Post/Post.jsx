@@ -15,7 +15,7 @@ import "./Post.css";
 import { Button, CircularProgress } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
-const API_KEY = "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";
+const API_KEY = "";
 
 const systemMessage = {
   //  Explain things like you're talking to a software professional with 5 years of experience.
