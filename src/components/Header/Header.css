@@ -1,0 +1,14 @@
+.logo {
+    margin: 0 0 0 20px;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: #00BBF6;
+}
+
+.header-container {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px #858585;
+}

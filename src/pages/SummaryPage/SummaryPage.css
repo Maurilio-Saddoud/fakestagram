@@ -1,0 +1,40 @@
+.summary-card {
+  width: 800px;
+  /* display: flex; */
+  background-color: white;
+}
+
+.summary-page-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.summary-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border-bottom: solid 1px #a9a9a9;
+}
+
+.summary-row {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #a9a9a9;
+}
+
+.reset-container {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary-row img {
+  height: 50px !important;
+  width: 50px !important;
+}

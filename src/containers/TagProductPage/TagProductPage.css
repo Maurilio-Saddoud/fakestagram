@@ -1,0 +1,64 @@
+.tag-people-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 100%; 
+    transition: all .5s ease; 
+}
+
+.active-tag {
+    margin-top: 0% !important;
+}
+
+.tag-header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.close-slider {
+    position: absolute;
+    right: 0px;
+}
+
+.search-bar-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    /* border-bottom: solid 1px #a9a9a9; */
+}
+
+.search-bar {
+    width: 85%;
+    border-radius: 50px;
+    padding-left: 20px;
+    background-color: rgb(221, 221, 221);
+    border: none;
+}
+
+.name-container {
+    background-color: rgb(221, 221, 221);
+    border-radius: 100px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tag-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.tagged-names-container{
+    padding: 5px 55px 10px 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: auto;
+    max-height: 100%;
+}
